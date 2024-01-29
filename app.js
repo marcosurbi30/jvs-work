@@ -75,36 +75,6 @@ console.log(historiaGenerada);
 
 
 
-/*  Simulador de Viaje en el Tiempo Musical  */ 
-
-function recomendarCancionesPorAnio(anio) {
-    
-    let recomendacionesPorAnio = {
-        1960: ["The Beatles - Hey Jude", "Elvis Presley - It's Now or Never", "The Supremes - Where Did Our Love Go"],
-        1970: ["Led Zeppelin - Stairway to Heaven", "Queen - Bohemian Rhapsody", "David Bowie - Space Oddity"],
-        1980: ["Michael Jackson - Billie Jean", "Madonna - Like a Virgin", "Queen - Another One Bites the Dust"],
-        1990: ["Nirvana - Smells Like Teen Spirit", "Backstreet Boys - I Want It That Way", "Britney Spears - ...Baby One More Time"],
-        2000: ["Eminem - Lose Yourself", "Beyoncé - Crazy in Love", "Coldplay - Viva la Vida"],
-        2010: ["Ed Sheeran - Shape of You", "Taylor Swift - Shake It Off", "Bruno Mars - Uptown Funk"]
- 
-    };
-
-    let recomendaciones = recomendacionesPorAnio[anio];
-
-    if (recomendaciones) {
-        return `Recomendaciones musicales para el año ${anio}:\n${recomendaciones.join("\n")}`;
-    } else {
-        return `Lo siento, no tengo recomendaciones para el año ${anio}. ¡Intenta con otro año!`;
-    }
-}
-
-
-let anioViaje = 1980; 
-let recomendacionesMusicales = recomendarCancionesPorAnio(anioViaje);
-console.log(recomendacionesMusicales);
-
-
-
 
 
 
